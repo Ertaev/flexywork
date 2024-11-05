@@ -30,3 +30,9 @@
 .main__inner a {
 	font-weight: 600;
 }
+
+@media screen and (max-height: 750px) {
+	.main {
+		height: auto;
+	}
+}
