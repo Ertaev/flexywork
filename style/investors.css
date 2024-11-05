@@ -1,5 +1,5 @@
 .header {
-	background: #090F20;
+	background: var(--main-dark);
 }
 
 .nav__item a.active::before {
@@ -7,7 +7,7 @@
 }
 
 .main {
-	background: #090F20;
+	background: var(--main-dark);
 }
 
 .main__title {
@@ -15,7 +15,7 @@
 	font-weight: 600;
 	font-size: 48px;
 	line-height: 60px;
-	color: #FFFFFF;
+	color: var(--main-white);
 }
 
 .main .button {
@@ -46,7 +46,7 @@
 	        flex-direction: column;
 	padding: 40px;
 	gap: 20px;
-	background: #F2F2F2;
+	background: var(--main-grey);
 	border-radius: 10px;
 }
 
@@ -56,7 +56,7 @@
 	font-size: 14px;
 	line-height: 22px;
 	text-transform: uppercase;
-	color: #090F20;
+	color: var(--main-dark);
 }
 
 .metrics__item-text {
@@ -64,7 +64,7 @@
 	font-weight: 600;
 	font-size: 35px;
 	line-height: 22px;
-	color: #090F20;
+	color: var(--main-dark);
 }
 
 .metrics__presentation {
@@ -80,7 +80,7 @@
 
 
 .team {
-	background: #F2F2F2;
+	background: var(--main-grey);
 }
 
 .team__title {

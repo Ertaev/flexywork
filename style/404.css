@@ -1,0 +1,32 @@
+.main {
+	background: var(--main-white);
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main__inner {
+	flex-direction: column;
+	gap: 92px;
+	max-width: 628px;
+	margin: 0 auto;
+}
+
+.main__inner .logo {
+	margin-bottom: 0;
+}
+
+.main__inner p,
+.main__inner a {
+	font-family: 'TT Hoves';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 42px;
+	text-align: center;
+	color: var(--main-dark);
+}
+
+.main__inner a {
+	font-weight: 600;
+}

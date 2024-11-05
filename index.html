@@ -51,8 +51,8 @@
 					</p>
 
 					<div class="main__buttons">
-						<a href="/" class="button">Find work</a>
-						<a href="/" class="button button--white">Find workers</a>
+						<a href="./404.html" class="button">Find work</a>
+						<a href="./404.html" class="button button--white">Find workers</a>
 					</div>
 
 				</div>
@@ -176,7 +176,7 @@
 
 						<p class="accelerate__item-desc">Artificial intelligence will test and train temporary workers. Take over supervision and verify the results of the work.</p>
 
-						<a href="/" class="button button--blue">Find workers</a>
+						<a href="./404.html" class="button button--blue">Find workers</a>
 					</div>
 
 					<div class="accelerate__item">
@@ -184,7 +184,7 @@
 
 						<p class="accelerate__item-desc">Plan temporary employee schedules with accuracy and confidence reducing staffing costs.</p>
 
-						<a href="/" class="button button--blue">Find workers</a>
+						<a href="./404.html" class="button button--blue">Find workers</a>
 					</div>
 				</div>
 
@@ -204,7 +204,7 @@
 					How it works
 				</h2>
 
-				<!-- <div class="work__list">
+				<div class="work__list">
 					<div class="work__item">
 						<div class="work__item-img">
 							<img src="./img/work-1.svg" alt="">
@@ -245,69 +245,40 @@
 							<p class="work__item-desc">Choose a convenient payment schedule and don't think <br/> about taxes. We will prepare all the necessary documents.</p>
 						</div>
 					</div>
-				</div> -->
-
-				<div class="work__slider-wrapper">
-					<div class="work__slider">
-						<div id="preview" class="col">
-							<div class="preview__list">
-								<div class="vis">
-									<img src="https://flexywork.pro/img/work-1.svg" alt="" />
-								</div>
-								<div class="vis">
-									<img src="https://flexywork.pro/img/work-2.svg" alt="" />
-								</div>
-								<div class="vis">
-									<img src="https://flexywork.pro/img/work-3.svg" alt="" />
-								</div>
-								<div class="vis">
-									<img src="https://flexywork.pro/img/work-4.svg" alt="" />
-								</div>
-							</div>
+				</div>
+				
+				<div class="work__slider">
+					<div class="work__images">
+						<div class="work__image active" id="work-1">
+							<img src="./img/work-1.svg" alt="">
 						</div>
-			
-						<div id="items" class="col">
-							<div class="items__inner">
-								<div class="items__item">
-									<h4 class="work__item-title">Set up your profile</h4>
-									<p class="work__item-desc">
-										Let companies know you're ready to go. <br />
-										Show them what you've got to offer.
-									</p>
-								</div>
-			
-								<div class="items__item">
-									<h4 class="work__item-title">Choose from 1000+ shifts</h4>
-									<p class="work__item-desc">
-										Filter the shifts you want to choose from. Apply for the
-										<br />
-										ones that suits you best.
-									</p>
-								</div>
-			
-								<div class="items__item">
-									<h4 class="work__item-title">
-										Explore Job Details Before <br />
-										You Apply
-									</h4>
-									<p class="work__item-desc">
-										Get an in-depth look at the shift, including location, pay
-										rate, <br />
-										and shift times. Make an informed choice and ensure it's the
-										<br />
-										perfect fit for your schedule.
-									</p>
-								</div>
-			
-								<div class="items__item">
-									<h4 class="work__item-title">Get paid daily</h4>
-									<p class="work__item-desc">
-										Choose a convenient payment schedule and don't think <br />
-										about taxes. We will prepare all the necessary documents.
-									</p>
-								</div>
-								
-							</div>
+						<div class="work__image" id="work-2">
+							<img src="./img/work-2.svg" alt="">
+						</div>
+						<div class="work__image" id="work-3">
+							<img src="./img/work-3.svg" alt="">
+						</div>
+						<div class="work__image" id="work-4">
+							<img src="./img/work-4.svg" alt="">
+						</div>
+					</div>
+
+					<div class="work__content">
+						<div class="work__item-content">
+							<h4 class="work__item-title">Set up your profile</h4>
+							<p class="work__item-desc">Let companies know you're ready to go. <br/> Show them what you've got to offer.</p>
+						</div>
+						<div class="work__item-content">
+							<h4 class="work__item-title">Choose from 1000+ shifts</h4>
+							<p class="work__item-desc">Filter the shifts you want to choose from. Apply for the <br/> ones that suits you best.</p>
+						</div>
+						<div class="work__item-content">
+							<h4 class="work__item-title">Explore Job Details Before <br/> You Apply</h4>
+							<p class="work__item-desc">Get an in-depth look at the shift, including location, pay rate, <br/> and shift times. Make an informed choice and ensure it's the <br/> perfect fit for your schedule.</p>
+						</div>
+						<div class="work__item-content">
+							<h4 class="work__item-title">Get paid daily</h4>
+							<p class="work__item-desc">Choose a convenient payment schedule and don't think <br/> about taxes. We will prepare all the necessary documents.</p>
 						</div>
 					</div>
 				</div>
@@ -320,64 +291,6 @@
 
 		</div>
 	</section>
-
-	<style>
-		.work__slider-wrapper {
-			position: relative;
-			height: 800px;
-			margin-bottom: 80px;
-		}
-
-		.work__slider {
-			position: absolute;
-			display: table;
-			table-layout: fixed;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-		}
-
-		.work__slider img {
-			position: absolute;
-			display: block;
-			height: 100%;
-			object-fit: cover;
-			object-position: center;
-		}
-
-		#preview {
-			width: 394px;
-		}
-
-		.work__slider .col {
-			display: table-cell;
-			position: relative;
-		}
-
-		.work__slider .col > div {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			overflow: hidden;
-		}
-
-		.items__item,
-		.vis {
-			padding-left: 70px;
-			height: inherit;
-			display: flex;
-			justify-content: center;
-			flex-direction: column;
-		}
-
-		.vis {
-			padding: 0px;
-		}
-
-	</style>
 
 	<section class="platform section">
 		<div class="container">
@@ -497,7 +410,7 @@
 
 					<p class="prospects__subtitle section__subtitle">We've prepared a new professional course and the first lesson is free. You can check it right now!</p>
 
-					<a href="/" class="button">Get a free lesson</a>
+					<a href="./404.html" class="button">Get a free lesson</a>
 				</div>
 
 				<div class="prospects__img">
@@ -590,58 +503,24 @@
 		if ( $video_player ) new Player($video_player);
 	</script>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
-	<script src="https://cdn.rawgit.com/Promo/wheel-indicator/f047fdff/lib/wheel-indicator.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
 	<script>
-		Init();
+		const foo = document.querySelector(".work__content");
+		const bar = document.querySelectorAll('.work__image');
+		const thresholds = [0, 400, 1160, 2000];
+		const activeIndex = [0, 1, 2, 3];
 
-		$(window).resize(function () {
-			Init();
-		});
+		foo.addEventListener("scroll", () => {
+			let currentIndex = 0;
 
-		function Init() {
-			$SlideHeight = $("#items").height();
-			$DivNum = $(".items__item").length;
-
-			$SliderHeight = $DivNum * $SlideHeight;			
-			$NewScrollTop = $CurrSl = 0;
-			$SlNum = $DivNum - 1;
-
-			$(".items__inner").scrollTop(0);
-			$(".preview__list").scrollTop($NewScrollTop);
-			
-			var indicator = new WheelIndicator({
-				elem: document.querySelector(".work__slider"),
-				callback: function (e) {
-					ScrollMe(e.direction);
-				},
-			});
-
-			indicator.getOption("preventMouse");
-		}
-
-		function ScrollMe(Direction) {
-			if (Direction == "down" && $CurrSl < $SlNum) {
-				$CurrSl += 1;
-				$TranslateOrigin = "100%";
-				console.log("down", $CurrSl, $SlNum);
-			} else if (Direction == "up" && $CurrSl > 0) {
-				$CurrSl -= 1;
-				$TranslateOrigin = "-100%";
-				console.log("up", $CurrSl);
-			} else {
-				exit;
+			for (let i = 0; i < thresholds.length; i++) {
+				if (foo.scrollTop >= thresholds[i]) {
+					currentIndex = i;
+				}
 			}
 
-			$NewScrollTop = $CurrSl * $SlideHeight;
-			
-			TweenMax.to($(".col>div"), 1.5, {
-				scrollTo: { x: 0, y: $NewScrollTop },
-				ease: Expo.easeOut,
-			});			
-		}
+			bar.forEach((image) => image.classList.remove("active"));
+			bar[currentIndex].classList.add("active");
+		});
 	</script>
 
 </body>
