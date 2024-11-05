@@ -1292,6 +1292,13 @@ a:active {
 	}
 }
 
+@media screen and (max-width: 520px) {
+	.faq__item-answer,
+	.faq__item-question {
+		max-width: calc(100% - 20px);
+	}
+}
+
 @media screen and (max-width: 480px) {
 	.work__item-img {
 		width: 250px;
