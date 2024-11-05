@@ -76,7 +76,7 @@
 					We connect employers with pre-trained and certified workers to quickly cover temporary and flexible shifts with daily pay. Our artificial intelligence-enabled platform automates staffing, providing reliable and effortless efficiency. Employers get instant access to qualified staff and workers get flexible earning opportunities.
 				</p>
 
-				<a href="/" class="button">
+				<a href="mailto:support@flexywork.pro" class="button">
 					Get Demo
 				</a>
 			</div>
@@ -149,7 +149,7 @@
 
 				</div>
 
-				<a href="/" class="button">
+				<a href="mailto:support@flexywork.pro" class="button">
 					Get Demo
 				</a>
 
@@ -204,7 +204,7 @@
 					How it works
 				</h2>
 
-				<div class="work__list">
+				<!-- <div class="work__list">
 					<div class="work__item">
 						<div class="work__item-img">
 							<img src="./img/work-1.svg" alt="">
@@ -245,9 +245,74 @@
 							<p class="work__item-desc">Choose a convenient payment schedule and don't think <br/> about taxes. We will prepare all the necessary documents.</p>
 						</div>
 					</div>
+				</div> -->
+
+				<div class="work__slider-wrapper">
+					<div class="work__slider">
+						<div id="preview" class="col">
+							<div class="preview__list">
+								<div class="vis">
+									<img src="https://flexywork.pro/img/work-1.svg" alt="" />
+								</div>
+								<div class="vis">
+									<img src="https://flexywork.pro/img/work-2.svg" alt="" />
+								</div>
+								<div class="vis">
+									<img src="https://flexywork.pro/img/work-3.svg" alt="" />
+								</div>
+								<div class="vis">
+									<img src="https://flexywork.pro/img/work-4.svg" alt="" />
+								</div>
+							</div>
+						</div>
+			
+						<div id="items" class="col">
+							<div class="items__inner">
+								<div class="items__item">
+									<h4 class="work__item-title">Set up your profile</h4>
+									<p class="work__item-desc">
+										Let companies know you're ready to go. <br />
+										Show them what you've got to offer.
+									</p>
+								</div>
+			
+								<div class="items__item">
+									<h4 class="work__item-title">Choose from 1000+ shifts</h4>
+									<p class="work__item-desc">
+										Filter the shifts you want to choose from. Apply for the
+										<br />
+										ones that suits you best.
+									</p>
+								</div>
+			
+								<div class="items__item">
+									<h4 class="work__item-title">
+										Explore Job Details Before <br />
+										You Apply
+									</h4>
+									<p class="work__item-desc">
+										Get an in-depth look at the shift, including location, pay
+										rate, <br />
+										and shift times. Make an informed choice and ensure it's the
+										<br />
+										perfect fit for your schedule.
+									</p>
+								</div>
+			
+								<div class="items__item">
+									<h4 class="work__item-title">Get paid daily</h4>
+									<p class="work__item-desc">
+										Choose a convenient payment schedule and don't think <br />
+										about taxes. We will prepare all the necessary documents.
+									</p>
+								</div>
+								
+							</div>
+						</div>
+					</div>
 				</div>
 
-				<a href="" class="button">
+				<a href="https://play.google.com/store/apps" class="button">
 					Download the app
 				</a>
 
@@ -255,6 +320,64 @@
 
 		</div>
 	</section>
+
+	<style>
+		.work__slider-wrapper {
+			position: relative;
+			height: 800px;
+			margin-bottom: 80px;
+		}
+
+		.work__slider {
+			position: absolute;
+			display: table;
+			table-layout: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+		.work__slider img {
+			position: absolute;
+			display: block;
+			height: 100%;
+			object-fit: cover;
+			object-position: center;
+		}
+
+		#preview {
+			width: 394px;
+		}
+
+		.work__slider .col {
+			display: table-cell;
+			position: relative;
+		}
+
+		.work__slider .col > div {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+
+		.items__item,
+		.vis {
+			padding-left: 70px;
+			height: inherit;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+		}
+
+		.vis {
+			padding: 0px;
+		}
+
+	</style>
 
 	<section class="platform section">
 		<div class="container">
@@ -273,7 +396,7 @@
 
 			</div>
 
-			<a href="/" class="button">
+			<a href="mailto:support@flexywork.pro" class="button">
 				Get Demo
 			</a>
 
@@ -294,7 +417,7 @@
 
 					<p class="ai-section__desc">Review the shift details, agree to the terms of service, and confirm your shift. Once confirmed, you're ready to work!</p>
 
-					<a href="/" class="button">Get Demo</a>
+					<a href="mailto:support@flexywork.pro" class="button">Get Demo</a>
 				</div>
 
 			</div>
@@ -432,7 +555,7 @@
 				<div class="footer__contact">	
 					<a href="mailto:support@flexywork.pro" class="footer__link">support@flexywork.pro</a>
 
-					<a href="/" class="button">
+					<a href="mailto:support@flexywork.pro" class="button">
 						Get Demo
 					</a>
 				</div>
@@ -465,6 +588,60 @@
 
 		const $video_player = document.querySelector(".video__player");
 		if ( $video_player ) new Player($video_player);
+	</script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+	<script src="https://cdn.rawgit.com/Promo/wheel-indicator/f047fdff/lib/wheel-indicator.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+	<script>
+		Init();
+
+		$(window).resize(function () {
+			Init();
+		});
+
+		function Init() {
+			$SlideHeight = $("#items").height();
+			$DivNum = $(".items__item").length;
+
+			$SliderHeight = $DivNum * $SlideHeight;			
+			$NewScrollTop = $CurrSl = 0;
+			$SlNum = $DivNum - 1;
+
+			$(".items__inner").scrollTop(0);
+			$(".preview__list").scrollTop($NewScrollTop);
+			
+			var indicator = new WheelIndicator({
+				elem: document.querySelector(".work__slider"),
+				callback: function (e) {
+					ScrollMe(e.direction);
+				},
+			});
+
+			indicator.getOption("preventMouse");
+		}
+
+		function ScrollMe(Direction) {
+			if (Direction == "down" && $CurrSl < $SlNum) {
+				$CurrSl += 1;
+				$TranslateOrigin = "100%";
+				console.log("down", $CurrSl, $SlNum);
+			} else if (Direction == "up" && $CurrSl > 0) {
+				$CurrSl -= 1;
+				$TranslateOrigin = "-100%";
+				console.log("up", $CurrSl);
+			} else {
+				exit;
+			}
+
+			$NewScrollTop = $CurrSl * $SlideHeight;
+			
+			TweenMax.to($(".col>div"), 0.6, {
+				scrollTo: { x: 0, y: $NewScrollTop },
+				ease: Expo.easeOut,
+			});			
+		}
 	</script>
 
 </body>
